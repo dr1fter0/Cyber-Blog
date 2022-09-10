@@ -27,9 +27,14 @@ menu:
       name: About
       url: /About/
       weight: 10
-    - identifier: Post
+    - identifier: Posts
       name: Posts
       url: /Posts/
+      weight: 10
+    - identifier: Blog Post
+      name: Blog Posts
+      url: /Blog Posts/
+      parent: Posts
       weight: 11
 
 taxonomies:
