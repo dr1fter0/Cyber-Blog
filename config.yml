@@ -1,0 +1,39 @@
+baseURL: ""
+languageCode: en-gb
+title: Ol's Knowledgebase
+author: Ollie
+paginate: 3
+enableInlineShortcodes: true
+
+# Automatically add content sections to main menu
+sectionPagesMenu: main
+
+params:
+  noindex: false
+  theme:
+    palette: gruvbox-dark
+    mode: dark-mode
+  about:
+    title: Guide
+    description: 'A website for documenting my learning and progress.'
+  socialLinks:
+    - icon: fab fa-github
+      title: GitHub
+      url: 'https://github.com/dr1fter0?tab=repositories'
+
+menu:
+  main:
+    - identifier: About me
+      name: About
+      url: /About/
+      weight: 10
+    - identifier: Post
+      name: Posts
+      url: /Posts/
+      weight: 11
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
