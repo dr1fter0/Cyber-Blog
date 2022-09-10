@@ -1,5 +1,6 @@
 baseURL: "https://theinfosecnoob.wiki/"
 languageCode: en-gb
+theme: risotto
 title: Ol's Knowledgebase
 author: Ollie
 paginate: 3
